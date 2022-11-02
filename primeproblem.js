@@ -8,5 +8,9 @@ function checkprime(num){
         return true
     }return false
 }
-ans=checkprime(5)
-console.log(ans)
+let ans=checkprime(5)
+if(ans==true){
+   console.log("Prime")
+}else{
+console.log("Not Prime")
+}
