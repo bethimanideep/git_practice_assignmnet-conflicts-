@@ -2,15 +2,15 @@ function prime(num){
     count=0;
     for(i=1;i<=num;i++){
         if(num%i==0){
-            count++
+            factors++
         }
-    }if(count==2){
+    }if(factors==2){
         return true
     }return false
 }
-let ans=checkprime(5)
-if(ans==true){
-   console.log("Prime")
+let answer=checkprime(5)
+if(answer==true){
+   console.log("Prime Number")
 }else{
-console.log("Not Prime")
+console.log("Not  a Prime Number")
 }
